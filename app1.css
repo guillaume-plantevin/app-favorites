@@ -3,9 +3,31 @@
     font:   FB Web Only
             Inter
             Interstate
+            Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif
     color:
     #F95500 Orange
     #FFFFFF White
     #F2F2F2 lightgray
     #333333 gray
  */
+body {
+    font-family:Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+
+    /* background: #F2F2F2; */
+    background: rgb(255,255,255);
+    background: linear-gradient(297deg, rgba(255,255,255,1) 0%, rgba(249,88,4,1) 41%, rgba(255,255,255,1) 100%); 
+    margin: 0;
+}
+header {
+    /* background: skyblue; */
+}
+
+main {
+    /* background: thistle; */
+}
+p {
+    margin: 0 20px;
+}
+.illustrative {
+    border-radius: 30px;
+}

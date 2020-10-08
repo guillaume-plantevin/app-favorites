@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+header h1 {
+    background: pink;
+    text-align: center;
+    /* width: 300px; */
+    margin: 0 auto;
+    font-size: 50px;
+}
+.butn, a {
+    /* background-image: url(images/vinted-logo.png); */
+    /* width: 120px; */
+    font-family: 'Geneva', Sans-serif;
+    border-radius: 20px 0;
+    /* background: #F95500; */
+    /* color: white; */
+    padding: 12px 20px;
+    
+    border: 2px solid black;
+    
+    text-decoration: none;
+    outline: black solid 1px;
+    /* outline-offset: 10px; */
+    transition: all ease-in-out 300ms;
+}
+footer
+{
+    height: 150px;
+    font-size: 50px;
+    margin: 30px auto;
+    background: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.butn:hover, a:hover {
+    /* background: seagreen; */
+    outline: black solid 1px;
+    outline-offset: 5px;
+    color: white;
+    font-size: 25px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    /* background-image: url(images/vinted-logo.png); */
+    background-position: center;
+    background-size: cover;
+    /* height: 300px; */
+}
+
+
+#button-accueil:hover {
+    background: rgb(3, 40, 250);
+    text-shadow: 1px 2px rgb(55, 59, 65);
+
+}
+#button-soundcloud {
+    background: #F95500;
+}
+#button-soundcloud:hover {
+    /* color: white; */
+    font-size: 25px;
+    background-image: url(images/soundcloud-logo.png);
+    background-position: center;
+    background-size: cover;
+    /* background: #F95500; */
+    text-shadow: 2px 2px 1px #000000;
+
+    outline: black solid 1px;
+    outline-offset: 5px;
+}
+
+#button-duolingo:hover {
+    font-family: 'Varela Round', sans-serif;
+    background-image: url(images/duo-happy.svg);
+    background-position: center;
+    background-size: cover;
+
+    /* color: white; */
+    font-size: 25px;
+    /* background: #62e00223; */
+    
+    text-shadow: 1px 2px #35680f;
+    outline: black solid 1px;
+    outline-offset: 5px;
+
+}
+#button-tgtg:hover {
+    /* font-family: 'Varela Round', sans-serif;; */
+    color: white;
+    font-size: 25px;
+    background: none;
+    /* background: #2AB1BA; */
+    text-shadow: 2px 2px 1px #000000;
+    background-image: url(images/TGTG-logo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    outline: black solid 1px;
+    outline-offset: 5px;
+}
