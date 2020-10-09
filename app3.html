@@ -1,64 +1,121 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@500;900&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="app-favorites.css" type="text/css">
+        <link rel="stylesheet" href="app3.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <title>Too Good To Go</title>
     </head>
     
     <body>
         <header>
-            <h1>Too Good To Go</h1>
-           
-
+            <h1 id="name-brand">Too Good To Go</h1>
+            <img id="logo" src="images/TGTG-logo.svg" alt="logo de too good to go" width="35%">
         </header>
         <main>
-        
-        <!-- intro -->
-        <section>
-            <h2>Sauvez de délicieux invendus <br>
-                et à un prix avantageux !</h2>
-            <p>
-                Notre application vous permet de faire un geste pour la planète et vos papilles!
-                Connectez-vous sur votre smartphone et sauvez de délicieux invendus alimentaires 
-                chez vos commerçants locaux. 
-                Les paniers sont toujours surprises, à un prix avantageux et 
-                ils font du bien à la planète. Alors, qu'attendez-vous pour essayer ?
-            </p>
+            <nav>
+                <button class="butn" id="button-accueil">
+                    <a href="app-favorites.html">
+                        Accueil
+                    </a>
+                </button>
+                <button class="butn" id="button-soundcloud">
+                    <a href="app1.html">
+                        Soundcloud
+                    </a>
+                </button>
+                <button class="butn" id="button-duolingo">
+                    <a href="app2.html">
+                        Duolingo
+                    </a>
+                </button>
+                <button class="butn" id="button-tgtg">
+                    <a href="app3.html">
+                        Too Good To Go
+                    </a>
+                </button>
+            </nav>
+            
+            <section class="intro">
+                <h1>Sauvez des repas <br>
+                    aidez la planète</h1>
+                <p>
+                    Notre application vous permet de faire un geste pour la planète et vos papilles!
+                    Connectez-vous sur votre smartphone et sauvez de délicieux invendus alimentaires 
+                    chez vos commerçants locaux. 
+                    Les paniers sont toujours surprises, à un prix avantageux et 
+                    ils font du bien à la planète. Alors, qu'attendez-vous pour essayer ?
+                </p>
 
-        </section>
-        <!-- mouvement -->
-        <section>
-            <h1>Faire la différence</h1>
-                Nous construisons de grandes choses
-                
-                Afin d'avoir un impact réel sur la problématique du gaspillage alimentaire, 
-                nous devons travailler main dans la main avec le monde politique, 
-                l'éducation, les foyers et les entreprises. Découvrez nos nombreuses actions !
-                
+            </section>
 
-        </section>
-            <!-- téléchargement -->
+            <section class="part1">
+                <div class="title_image">
+                    <div>
+                        <h1>Faire la différence
+                            Nous construisons de grandes choses
+                        </h1>
+                    </div>
+                    <div>
+                        <img src="images/give-bag.png" alt="un commerçant donne un sac" width="500px">
+                    </div>
+                </div>
+                <p>
+                    Afin d'avoir un impact réel sur la problématique du gaspillage alimentaire, 
+                    nous devons travailler main dans la main avec le monde politique, 
+                    l'éducation, les foyers et les entreprises. Découvrez nos nombreuses actions !
+                    </p> 
+            </section>
+
+            <section>
+                <img src="images/screen-phone-TGTG.jpg" alt="photo de l'application" width="600px">
+                <p>
+                    Utilisez la géo-localisation aussi bien en déplacement 
+                    que dans votre quartier pour découvrir les commerces participants.
+                </p>
+                <img src="images/screen-phone-2.2.jpg" alt="découverte des commerces participants" width="600px">
+            </section>
+
             <section>
                 <div class="telechargement">
-                    <!-- <img src="images/phone-sc-go.png" alt="offre de soundcloud go"> -->
-
                     <p>
                         Et vous, vous prenez quoi pour le déjeuner? 
                     </p>
-                    <div class="stores">
-                        <a href="https://itunes.apple.com/fr/app/too-good-to-go/id1060683933?mt=8"><img src="images/apple-store.png" alt="logo apple store"></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.app.tgtg&hl=fr"><img src="images/google-play.png" alt="logo goole play"></a>
-                    </div>
                 </div>           
             </section>
         </main>
         <footer>
-
+            <div class="footer-links">
+                <div class="logo icon" id="tgtg-logo">
+                    <a href="https://toogoodtogo.fr/fr" target="_blank"><img src="images/TGTG-logo.png" alt="too good to go logo" width="80px"></a>
+                </div>
+                <div class="rezsocio icon" id="rezsocio-icon">
+                    <div class="icon" id="box1">
+                        <a href="https://facebook.com/toogoodtogofr" target="_blank"><img src="images/facebook-icon.png" alt="icone facebook" width="80px"></a>
+                    </div>
+                    <div class="icon" id="box2">
+                        <a href="https://www.instagram.com/toogoodtogo.fr/" target="_blank"><img src="images/insta-icon.png" alt="icone instagram" width="80px"></a>
+                    </div>
+                    <div class="icon" id="box3">
+                        <a href="https://www.youtube.com/channel/UCdahojwHBcsslDNo0i56tMg" target="_blank"><img src="images/youtube-icon-2.png" alt="icone youtube" width="80px"></a>
+                    </div>
+                    <div class="icon" id="box4">
+                        <a href="https://twitter.com/toogoodtogo_fr?lang=fr" target="_blank"><img src="images/twitter-icon.png" alt="icone twitter" width="80px"></a>
+                    </div>
+                </div>
+                <div class="stores icon" id="box5">
+                    <div class="stores" id="apple-store">
+                        <a href="https://itunes.apple.com/fr/app/too-good-to-go/id1060683933?mt=8"><img src="images/apple-store.png" alt="logo apple store" width="150px"></a>
+                    </div>
+                    <div class="stores" id="google-store">
+                        <a href="https://play.google.com/store/apps/details?id=com.app.tgtg&hl=fr"><img src="images/google-play.png" alt="logo goole play" width="150px"></a>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

@@ -8,4 +8,174 @@
     #FDC802 Yellow
     #F94B4B red
     #61E002 green 
- */
+*/
+body {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+    /* background: rgba(255, 255, 255, 0.062); */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 28px;
+    line-height: 1.6;
+}
+p {
+    margin: 0 30px;
+    color: white;
+}
+/* h1 {
+    font-size: 40px;
+} */
+header {
+    margin: 100px auto;
+    /* margin-bottom: 200px; */
+}
+.illustrative {
+    border-radius: 30px;
+}
+.intro {
+    margin-bottom: 200px;
+}
+.intro p {
+    /* padding: 30px !important;
+    margin: 30px !important; */
+    width:70%;
+    line-height: 1.8;
+}
+.intro img {
+    float: left;
+    margin-right: 30px;
+}
+.telechargement {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.abo p {
+    width: 500px;
+    float: left;
+}
+.abo h1, .duo-story h1{
+    color: #58CC04;
+    text-shadow: 2px 2px 1px #89E217;
+}
+.abo {
+    margin-bottom: 250px;
+}
+
+.duo-story img {
+    float: right;
+    margin-right: 100px;
+}
+/*          NAVIGATION BAR              */
+nav {
+    height: 150px;
+    font-size: 50px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80px;
+    color: #58CC04;
+    text-shadow: 2px 2px 1px #89E217;
+}
+.butn, a {
+    font-family: 'Geneva', Sans-serif;
+    border-radius: 20px 0;
+    padding: 12px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+#button-accueil {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+#button-soundcloud {
+    background: #F95500;
+}
+#button-duolingo {
+    background: #83DF46;
+}
+#button-tgtg {
+    background: #45ADA1;
+}
+.butn:hover, a:hover {
+    color: white;
+    font-size: 25px;
+    background-position: center;
+    background-size: cover;
+    scale: 1.2;
+}
+#button-accueil:hover {
+    background: rgb(177, 134, 173);
+    color: black;
+    text-shadow: 1px 2px rgb(55, 59, 65);
+}
+#button-soundcloud:hover {
+    font-size: 25px;
+    background-image: url(images/soundcloud-logo.png);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+#button-duolingo:hover {
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 2px 2px 1px #000000;
+    background-image: url(images/duo-happy.svg);
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+    text-shadow: 1px 2px #35680f;
+}
+#button-tgtg:hover {
+    color: white;
+    font-size: 25px;
+    background: none;
+    text-shadow: 2px 2px 1px #000000;
+    background-image: url(images/TGTG-logo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pro img{
+    float: left;
+    width: 45%;
+}
+                            /*          FOOTER              */
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-links {
+    display: flex;
+}
+#tgtg-logo {
+    width: 200px;
+    height: 180px;
+}
+#rezsocio-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    height: 180px;
+}
+#box1, #box2, #box3, #box4 {
+    height: 180px;
+}
+#box5 {
+    width: 23%;
+}

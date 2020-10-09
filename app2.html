@@ -2,51 +2,114 @@
 <html lang="fr">
 
     <head>
-        <link rel="stylesheet" href="app-favorites.css" type="text/css">
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="app2.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>duolingo</title>
     </head>
     
     <body>
-
+        <nav>
+            <button class="butn" id="button-accueil">
+                <a href="app-favorites.html">
+                    Accueil
+                </a>
+            </button>
+            <button class="butn" id="button-soundcloud">
+                <a href="app1.html">
+                    Soundcloud
+                </a>
+            </button>
+            <button class="butn" id="button-duolingo">
+                <a href="app2.html">
+                    Duolingo
+                </a>
+            </button>
+            <button class="butn" id="button-tgtg">
+                <a href="app3.html">
+                    Too Good To Go
+                </a>
+            </button>
+        </nav>
         <header>
             <h1>Duolingo</h1>
-
         </header>
-
+        
         <main>
             <!-- Intro -->
-            <section>
-                Apprenez facilement une langue étrangère avec Duolingo et sa masquotte Duo!
+            <section class="intro">
+                <div>
+                    <p>
+                        <img src="images/duolingo-progress.jpg" alt="capture d'écran de l'application" height="500">
+                        Apprenez facilement une langue étrangère avec Duolingo et sa masquotte Duo!
+                    </p>
+                    <p>
+                        Duolingo bâtit un monde d'éducation gratuite et sans barrières linguistiques.
+                        Les leçons de Duolingo s'adaptent à votre style d'apprentissage. 
+                        Les exercices sont personnalisés pour vous aider à apprendre et à réviser du vocabulaire efficacement.
+                    </p>   
+                </div>
             </section>
+            <section class="duo-story">
+                <img src="images/duolingo-story.jpg" alt="les histoires dans duolingo" height="400px">
+                <h1>
+                    Vous pouvez en plus des exercices, <br>
+                    écoutez des histoires
+                </h1>
+                <p>
+                    Originales et dans tous les styles - comédie, suspense, science-fiction, 
+                    elles vous permettront d'avoir une approche de la langue encore plus active et variée
+                </p>
 
-            <!-- slogan:
-                Duolingo bâtit un monde d'éducation gratuite et sans barrières linguistiques. 
-            -->
-            <section>
+            </section>
+            <section class="abo">
+                <h1>Améliore ton apprentissage avec Duolingo Plus</h1>
+                <p>
+                    Apprendre des langues avec Duolingo est entièrement gratuit, mais vous pouvez supprimer les pubs et soutenir l'enseignement gratuit avec Duolingo Plus. Les 14 premiers jours sont gratuits !
+                    En savoir plus sur Duolingo Plus
+                </p>
+                <img src="images/duolingo-plus.svg" alt="duo en astronaute">
                 
             </section>
             <!-- téléchargement -->
-            <section>
-                <div class="telechargement">
-                    <img src="images/phone-sc-go.png" alt="offre de soundcloud go">
-
+            <section class="telechargement">
                     <p>
                         Andiamo!<br>
-                        ¡Vamons!<br>
+                        ¡Vamos!<br>
                         Let's go! 
                     </p>
-                    <div class="stores">
-                        <a href="https://apps.apple.com/us/app/duolingo-language-lessons/id570060128"><img src="images/apple-store.png" alt="logo apple store"></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.duolingo&hl=en&gl=US"><img src="images/google-play.png" alt="logo goole play"></a>
-                    </div>
-                </div>           
+                    <img src="images/duo-happy2.svg" alt="la mascotte duo" width="300px">
             </section>
         </main>
 
         <footer>
-
+            <div class="footer-links">
+                <div class="logo icon" id="tgtg-logo">
+                    <a href="https://fr.duolingo.com/" target="_blank"><img src="images/duolingo-logo.png" alt="too good to go logo" width="80px"></a>
+                </div>
+                <div class="rezsocio icon" id="rezsocio-icon">
+                    <div class="icon" id="box1">
+                        <a href="https://www.facebook.com/duolingo" target="_blank"><img src="images/facebook-icon.png" alt="icone facebook" width="80px"></a>
+                    </div>
+                    <div class="icon" id="box3">
+                        <a href="https://www.youtube.com/user/duolingo" target="_blank"><img src="images/youtube-icon-2.png" alt="icone youtube" width="80px"></a>
+                    </div>
+                    <div class="icon" id="box4">
+                        <a href="https://twitter.com/duolingo" target="_blank"><img src="images/twitter-icon.png" alt="icone twitter" width="80px"></a>
+                    </div>
+                </div>
+                <div class="stores icon" id="box5">
+                    <div class="stores" id="apple-store">
+                        <a href="https://itunes.apple.com/fr/app/duolingo-learn-spanish-french/id570060128?mt=8&at=1010lwpr"><img src="images/apple-store.png" alt="logo apple store" width="150px"></a>
+                    </div>
+                    <div class="stores" id="google-store">
+                        <a href="https://play.google.com/store/apps/details?hl=fr&id=com.duolingo&referrer=utm_source%3Dduolingo.com%26utm_medium%3Dduolingo_web%26utm_content%3Dtext_link%26utm_campaign%3Dfooter_site-map"><img src="images/google-play.png" alt="logo goole play" width="150px"></a>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
